@@ -38,11 +38,11 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 # add 1 to the current line (now it's 2)
-current_line = current_line + 1
+current_line += 1
 # and print line 2
 print_a_line(current_line, current_file)
 
 # add 1 to the current line, so now it's 3
-current_line = current_line + 1
+current_line += 1
 # and then print line 3
 print_a_line(current_line, current_file)
